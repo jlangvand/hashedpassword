@@ -33,7 +33,7 @@ public class HashedPassword {
   private byte[] hash;
 
   /** @param pwd Password to be hashed. */
-  HashedPassword(String pwd) {
+  public HashedPassword(String pwd) {
     SecureRandom random = new SecureRandom();
     this.salt = new byte[16];
     random.nextBytes(this.salt);
