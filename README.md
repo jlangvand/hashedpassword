@@ -19,5 +19,13 @@ The library is hosted on [Jitpack](https://jitpack.io/#no.iskra/hashedpassword).
       }
     }
     dependencies {
-      compile 'no.iskra:hashedpassword:2.0+'
+      compile 'no.iskra:hashedpassword:0.4+'
     }
+
+## Usage
+
+    HashedPassword password = new HashedPassword("abc");
+    
+    password.validate("abc"); // Returns true
+    
+    password.validate("bcd"); // Returns false
