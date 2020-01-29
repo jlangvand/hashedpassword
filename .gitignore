@@ -1,3 +1,16 @@
+# Ignore Gradle files
+build
+.metadata
+.gradle
+jdt.ls-java-project
+META-INF
+
+# Ignore jokkestuff
+bin
+.classpath
+.project
+.settings
+
 # Compiled class file
 *.class
 
