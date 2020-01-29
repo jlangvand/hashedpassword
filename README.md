@@ -19,5 +19,5 @@ The library is hosted on [Jitpack](https://jitpack.io/#no.iskra/hashedpassword).
       }
     }
     dependencies {
-      compile 'no.iskra:CLITool:2.0+'
+      compile 'no.iskra:hashedpassword:2.0+'
     }
