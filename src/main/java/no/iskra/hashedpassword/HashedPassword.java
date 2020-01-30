@@ -34,9 +34,8 @@ public class HashedPassword {
 
   /** @param pwd Password to be hashed. */
   public HashedPassword(String pwd) {
-    SecureRandom random = new SecureRandom();
     this.salt = new byte[16];
-    random.nextBytes(this.salt);
+    new SecureRandom().nextBytes(this.salt);
     this.hash = genHash(pwd, this.salt);
   }
 
